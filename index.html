@@ -3,11 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Project</title>
+    <title>Slider</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
+      <div class="slider-container">
+          <div class="left-slide">
+              <div style="background-color: #ffa500">
+                <h1>Yellow House</h1>
+                <p>Hot day</p>
+             </div>
+              <div style="background-color: #e9967a">
+                <h1>Medellin at Night</h1>
+                <p>Very beautiful</p>
+             </div>
+              <div style="background-color: #708090">
+                <h1>Aerial View of Medellin</h1>
+                <p>Comuna 13</p>
+             </div>
+              <div style="background-color: #4682b4">
+                <h1>Bright Bogota</h1>
+                <p>Colorful Houses</p>
+             </div>
+              <div style="background-color: #deb887">
+                <h1>Beautiful Building</h1>
+                <p>Bricks</p>
+             </div>
+          </div>
+          <div class="right-slide">
+              <div style="background-image: url('pictures/wall.jpg')"></div>
+              <div style="background-image: url('pictures/bogota.jpg')"></div>
+              <div style="background-image: url('pictures/comuna13.jpg')"></div>
+              <div style="background-image: url('pictures/night.jpg')"></div>
+              <div style="background-image: url('pictures/door.jpg')"></div>
+          </div>
+          <div class="action-buttons">
+              <div class="down-button">
+                  <i class="fas fa-arrow-down"></i>
+              </div>
+              <div class="up-button">
+                  <i class="fas fa-arrow-up"></i>
+              </div>
+          </div>
+      </div>
     <script src="script.js"></script>
   </body>
 </html>
